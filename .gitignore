@@ -1,0 +1,5 @@
+*.vvp
+sim_*
+*.vcd
+*.out
+work/

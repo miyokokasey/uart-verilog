@@ -1,0 +1,8 @@
+VCD info: dumpfile uart_top_tb.vcd opened for output.
+--- STARTING UART LOOPBACK VERIFICATION ---
+[PASS] Sent: 0x41 | Received: 0x41
+[PASS] Sent: 0xa5 | Received: 0xa5
+[PASS] Sent: 0xff | Received: 0xff
+[PASS] Sent: 0x00 | Received: 0x00
+--- ALL TESTS COMPLETED ---
+tb/uart_top_tb.v:82: $finish called at 4158110000 (1ps)
