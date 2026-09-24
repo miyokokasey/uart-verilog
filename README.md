@@ -4,10 +4,13 @@ A parameterized UART transmitter and receiver, implemented as FSM + shift-regist
 Verilog modules, verified with a self-checking loopback testbench in Icarus Verilog.
 
 ## Frame Format
+
+- Idle state: line held high (1)
 - 1 start bit (0)
 - 8 data bits, LSB first
 - 1 stop bit (1)
 - No parity
+- Configurable baud rate (default: 9600, set via `BAUD_RATE` parameter)
 
 ## Architecture
                     ┌─────────────┐
